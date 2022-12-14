@@ -29,6 +29,11 @@ namespace BoardGameService.Controllers
             return View(boardGame);
         }
 
+        public IActionResult SignUpIn()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
