@@ -15,8 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CPC-2022-2\Projekt-ko-cowy-KN-Kredek\BoardGameService\BoardGameService
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CPC-2022-2/Projekt-ko-cowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/AddedComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRlZENvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CPC-2022-2/Projekt-ko-cowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/AllBoardGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxCb2FyZEdhbWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CPC-2022-2/Projekt-ko-cowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/CreateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CPC-2022-2/Projekt-ko-cowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Index.cshtml]

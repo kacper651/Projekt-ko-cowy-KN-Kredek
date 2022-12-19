@@ -3,3 +3,48 @@
 @{
 	ViewData["Title"] = "Dyskusja";
 }
+
+<h1>Witaj w wątku dotyczącym gry @Model.Name</h1>
+<img class="rounded" src="~/images/@Model.Image" style="height: 20rem; width:35rem"/>
+<p>Rating gry: @Model.Rating/5</p>
+<h5>Opis gry</h5>
+<p>@Model.Description</p>
+<h3>Komentarze: </h3>
+@Html.ActionLink("Dodaj komentarz", "CreateComment", new {id = @Model.Id})
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Autor</th>
+        <th>Data</th>
+        <th>Ocena</th>
+        <th>Opis</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+        @if(Model.Comments != null)
+        {
+            foreach (var comment in Model.Comments)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => comment.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => comment.Created)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => comment.Content)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => comment.Content)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<hr/>
+<a asp-action="AllBoardGames">Powrót</a>
