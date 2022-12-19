@@ -1,16 +1,18 @@
 ﻿using BoardGameService.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace BoardGameService.Controllers
 {
     public class HomeController : Controller
     {
-        List<BoardGame> boardGames = new List<BoardGame>
-        {
-            new BoardGame(1, "Monopoly", 4, "Fajna gra rodzinna", "monopoly.jpg")
+        private readonly DataContext _dataContext;
 
-        };
+        public HomeController(DataContext dataContext)
+        {
+            _dataContext = dataContext;
+        }
 
         public IActionResult Index()
         {
@@ -19,14 +21,56 @@ namespace BoardGameService.Controllers
 
         public IActionResult AllBoardGames()
         {
-            return View(boardGames);
+            var games = _dataContext.Boards
+                .ToList();
+
+            return View(games);
         }
 
-        public IActionResult Thread()
+        public IActionResult Thread(int id)
         {
-            var boardGame = boardGames[0];
+            var game = _dataContext.Boards
+                .Find(id);
 
-            return View(boardGame);
+            ViewBag.game = game;
+
+            if(game == null)
+                return NotFound();
+
+            return View(game);
+        }
+
+        public IActionResult CreateComment(int id)
+        {
+            var game = _dataContext.Boards
+                .Find(id);
+            ViewBag.game = game;
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CreateComment([Bind("BoardGameId,Author,Rating,Content")] Comment comment)
+        {
+            if (ModelState.IsValid)
+            {
+                comment.Created = DateTime.Now;
+                var game = _dataContext.Boards
+                    .Find(comment.BoardGameId);
+                ViewBag.game = game;
+
+                _dataContext.Comments.Add(comment);
+                _dataContext.SaveChanges();
+
+                return View("AddedComment", comment);
+            }
+            else
+            {
+                var game = _dataContext.Boards
+                    .Find(comment.BoardGameId);
+                ViewBag.game = game;
+                return View(comment);
+            }
         }
 
         public IActionResult Privacy()

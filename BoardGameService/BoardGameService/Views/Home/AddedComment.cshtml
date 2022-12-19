@@ -1,0 +1,12 @@
+﻿@model BoardGameService.Models.Comment
+
+@{
+	ViewData["Title"] = "Twój komentarz";
+}
+
+<h1>Twój komentarz został dodany!</h1>
+<h3>@Html.DisplayName("Treść")</h3>
+<h4>@Html.DisplayFor(model => model.Content)</h4>
+
+<hr/>
+@Html.ActionLink("Powrót", "Thread", new {id = Model.BoardGameId})
