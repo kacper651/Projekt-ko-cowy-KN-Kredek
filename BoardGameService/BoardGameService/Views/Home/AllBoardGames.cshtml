@@ -11,7 +11,10 @@
     <tr>
         <th>Numer</th>
         <th>Nazwa</th>
+        <th>Wiek</th>
         <th>Ocena</th>
+        <th>Kategorie</th>
+        <th>Czas gry</th>
         <th>Opis</th>
         <th>Zdjecie</th>
         <th></th>
@@ -28,7 +31,16 @@
                     @Html.DisplayFor(modelItem => game.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => game.Rating)
+                    @Html.DisplayFor(modelItem => game.Age)+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.Rating)/10
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.Categories)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.GameTime)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => game.Description)

@@ -8,7 +8,7 @@ namespace BoardGameService.Controllers
     {
         List<BoardGame> boardGames = new List<BoardGame>
         {
-            new BoardGame(1, "Monopoly", 4, "Fajna gra rodzinna", "monopoly.jpg")
+            new BoardGame(1, "Monopoly", 8, 7, new List<string>() {"Rodzinna, ", "Przyjaciele, ", "Ekonomia, ", "Na każdą okazję "}, "Fajna gra rodzinna i na każdą okazję.", 180, "monopoly.jpg")
 
         };
 

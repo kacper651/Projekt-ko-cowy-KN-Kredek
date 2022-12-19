@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BoardGameService
 build_property.RootNamespace = BoardGameService
-build_property.ProjectDir = C:\Users\Jakub\Source\Repos\Projekt-koncowy-KN-Kredek\BoardGameService\BoardGameService\
+build_property.ProjectDir = C:\Users\Jakub\source\repos\Projekt-koncowy-KN-Kredek\BoardGameService\BoardGameService\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jakub\Source\Repos\Projekt-koncowy-KN-Kredek\BoardGameService\BoardGameService
+build_property.MSBuildProjectDirectory = C:\Users\Jakub\source\repos\Projekt-koncowy-KN-Kredek\BoardGameService\BoardGameService
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/AllBoardGames.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/AllBoardGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxCb2FyZEdhbWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Index.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Privacy.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/SignUpIn.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/SignUpIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXBJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Thread.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Home/Thread.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaHJlYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/Error.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/_ViewImports.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/_ViewStart.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Source/Repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/_Layout.cshtml]
+[C:/Users/Jakub/source/repos/Projekt-koncowy-KN-Kredek/BoardGameService/BoardGameService/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-84v9js7ian
