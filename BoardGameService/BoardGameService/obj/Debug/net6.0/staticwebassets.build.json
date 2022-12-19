@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OQ+leHwf3GBf/XWqw6WgpfpJJDX5RnaXcx2fpNbVXz8=",
+  "Hash": "RQzmWB3MK9bVUIWpl0Kd2roHpJItFmxS3v+buJ+HBFs=",
   "Source": "BoardGameService",
   "BasePath": "_content/BoardGameService",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Jakub\\source\\repos\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\images\\logo.png",
+      "SourceId": "BoardGameService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\source\\repos\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\",
+      "BasePath": "_content/BoardGameService",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Jakub\\source\\repos\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\images\\monopoly.jpg",
