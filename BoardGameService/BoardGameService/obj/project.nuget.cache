@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f0+Y1BjN5VnU5nr3XibEabllNRzIDzoatp5/m0Ktr0mr3XUpFswgeH8xUG/QEwZ2corfUZnCxOS3NIgL+B3ykg==",
+  "dgSpecHash": "TBVdyqwMADaBYZ8LqwpkSGOMIj9OTcHLCw/HBhZSj5xV/bSXyIHMW947PUKdyGEFR17bk75TsafKqujqY1nU/Q==",
   "success": true,
-  "projectFilePath": "D:\\CPC-2022-2\\Projekt-ko-cowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
+  "projectFilePath": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wrobl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wrobl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

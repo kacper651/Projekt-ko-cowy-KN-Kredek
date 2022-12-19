@@ -2272,11 +2272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CPC-2022-2\\Projekt-ko-cowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
+      "projectUniqueName": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
       "projectName": "BoardGameService",
-      "projectPath": "D:\\CPC-2022-2\\Projekt-ko-cowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
+      "projectPath": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\BoardGameService.csproj",
       "packagesPath": "C:\\Users\\Wrobl\\.nuget\\packages\\",
-      "outputPath": "D:\\CPC-2022-2\\Projekt-ko-cowy-KN-Kredek\\BoardGameService\\BoardGameService\\obj\\",
+      "outputPath": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
