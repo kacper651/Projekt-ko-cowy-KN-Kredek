@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gS2D4vxJvmLj03E1UsbbTISc0Z+MnJRSV8PFxlGAz9M=",
+  "Hash": "KSIEJjXc1ZjCclB6KaRZ1wSTcTQzQeAiEuk83eDajAY=",
   "Source": "BoardGameService",
   "BasePath": "_content/BoardGameService",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\images\\logo.png",
+      "SourceId": "BoardGameService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\",
+      "BasePath": "_content/BoardGameService",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\CPC-2022-2\\Projekt-koncowy-KN-Kredek\\BoardGameService\\BoardGameService\\wwwroot\\images\\monopoly.jpg",
