@@ -1,7 +1,7 @@
 # Projekt-koncowy-KN-Kredek
-## Aplikacja webowa obsługująca serwis do opinii nt. gier planszowych
+Aplikacja webowa obsługująca serwis do opinii nt. gier planszowych
 
-## Screeny interfejsu:
+Screeny interfejsu:
 - Strona główna:
 ![main page](https://github.com/kacper651/Projekt-koncowy-KN-Kredek/blob/main/readme_images/main_page.png)
 - Lista wątków: 
